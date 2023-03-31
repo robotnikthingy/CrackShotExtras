@@ -1,0 +1,5 @@
+#planned layout of config
+
+WeaponNameHere:
+  onReload:
+    SpawnMythicMob:

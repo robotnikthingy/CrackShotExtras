@@ -1,0 +1,22 @@
+name: CrackShotExtras
+main: CrackShotExtras.CrackShotExtras
+version: 1.0
+author: Robotnikman
+load: startup
+description: Extra options for CrackShot
+website:
+commands:
+  crackshotextras:
+    description: The main CrackShotExtras Command
+    permission: crackshotextras.admin
+permissions:
+  crackshotextras.*:
+    description: The main CrackShotExtras Command
+    children:
+      crackshotextras.admin: true
+  crackshotextras.admin:
+    description: Allows you to use CrackShotExtras Admin commands
+    default: op
+  
+depend: [CrackShot,MythicMobs]
+softdepend: [CrackShotPlus]

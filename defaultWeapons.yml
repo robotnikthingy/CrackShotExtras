@@ -1,0 +1,26 @@
+# planned layout
+# Bazooka:
+  # SpawnMythicMobOnHit:
+  # SpawnMythicMobOnShoot:
+  # Shooting:
+    # MythicMobSpawn:
+      # Mob1:
+        # Type:
+        # Amount:
+        # Radius:
+      # Mob2:
+        # Type:
+        # Amount:
+        # Radius:
+  # Explosions:
+    # CustomExplosion:
+      # Explosion1:
+        # Range:
+          # Range1:
+            # Radius:
+            # Damage:
+            # Ignite:
+            # BlockDamage:
+        # Particles:
+
+#current supported events: onWeaponDamage, onWeaponReload, onWeaponHitBlock, onWeaponExplode, onWeaponHit, onWeaponShoot
